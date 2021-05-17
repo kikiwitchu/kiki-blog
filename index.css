@@ -20,7 +20,7 @@ body {
     font-weight: bold;
   }
   .head-img{
-    background-image: url(/img/francis/francis-det-4.jpg);
+    background-image: url("./img/francis/francis-det-4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -40,8 +40,10 @@ body {
   .section-posts>.container>h2{
     padding: 20px 0;
     font-family: 'Playfair Display', serif;
-    color: #1F1F1F;
+    color: #242424;
+    font-weight: bold;
     text-align: center;
+    font-size: 32px;
   }
 .section-cards{
     display: flex;
