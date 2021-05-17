@@ -1,78 +1,69 @@
-body {
+/*Geral*/
+*{
     margin: 0px;
     padding: 0px;
-    background-color: #F3F3F3;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box
 }
-h2{
+body {
+    background-color: #F3F3F3;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+  /*Header*/
+
+ header.head-img>h1{
+    font-family: 'Playfair Display', serif;
+    color: azure;
     font-size: 64px;
-    color: #313131;
-}
-h4 {
-    color: #5D5D5D;
- }
- .container{
-    max-width: 1070px;
-} 
-/* Head */
-header > .titulo-site {
-    color:rgb(255, 255, 255);
-    font-size: 30px;
-    
     text-shadow: 5px 5px 5px rgb(153, 75, 98);
-}
-header.img-header {
-    background-image: url('./img/francis/francis-det-3.jpg');
+    font-weight: bold;
+  }
+  .head-img{
+    background-image: url(/img/francis/francis-det-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
-    width: 100vw;
-    height: 40vh;
+    background-position: center;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-/* Fim Head */
+  }
 
-/* Post */
-main {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-section.container{
-    display: flex;
-    flex-direction: column;
-}
-section.container > h2 {
+  /*Post*/
+
+.container{
+    max-width: 967px;
+    margin: 0 auto;
+  }
+  .section-posts>.container>h2{
+    padding: 20px 0;
+    font-family: 'Playfair Display', serif;
+    color: #1F1F1F;
     text-align: center;
-}
-section.container > div{
-    display:flex;
+  }
+.section-cards{
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-article.img-container{
-    display: block;
-    width:300px;
-    height: 300px;
-}
-article.img-container>img{
-    width: 100%
-}
-.detalhe {
-    padding: 3vh;
-    width: 40vh;
-    height: 40vh;
-    columns: auto;
-}
-.foco {
-    padding: 4vh;
-    width: 350;
-    height: 350;
-}
-
-
- 
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .section-cards > .cards{
+    height: 235px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #FFD1D1;
+  }
+ .cards > img {
+      width: 100%;
+      border-radius: 20px;
+  }
+  .section-cards > .cards:hover{
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, 
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
