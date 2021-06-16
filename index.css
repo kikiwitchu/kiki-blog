@@ -59,7 +59,8 @@ body {
     border-radius: 20px;
     background-color: #FFD1D1;
   }
- .cards > img {
+
+ .img-card {
       width: 100%;
       border-radius: 20px;
   }
