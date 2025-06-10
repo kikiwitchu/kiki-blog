@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Francis",
+    "genero": [
+      "quadrinho",
+      "magia"
+    ],
+    "escritor": "Loputyn",
+    "editora": "Darkside",
+    "ano": 2019,
+    "url": "Francis.html",
+    "imagem": "./img/francis/francis-loputyn.jpg",
+    "tags": [
+      "quadrinho",
+      "bruxas",
+      "magia"
+    ],
+    "descricao": "Uma raposa e uma bruxa em uma fábula sombria de liberdade."
+  }
+]
